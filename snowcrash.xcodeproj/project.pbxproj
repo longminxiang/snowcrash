@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404E15A519F9304B004EDF09 /* MSONSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 404E15A419F9304B004EDF09 /* MSONSourcemap.h */; };
 		4056BE0B19EE98C5003AC26C /* test-Signature.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4056BE0A19EE98C5003AC26C /* test-Signature.cc */; };
 		4070F30419E4C30A004892C8 /* BlueprintSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4070F30119E4C30A004892C8 /* BlueprintSourcemap.h */; };
 		4070F30519E4C30A004892C8 /* CBlueprintSourcemap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4070F30219E4C30A004892C8 /* CBlueprintSourcemap.cc */; };
 		4070F30619E4C30A004892C8 /* CBlueprintSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4070F30319E4C30A004892C8 /* CBlueprintSourcemap.h */; };
+		4086365A19F7DB3000B92907 /* test-MSONValueMemberParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4086365919F7DB3000B92907 /* test-MSONValueMemberParser.cc */; };
+		4086365C19F7DB7A00B92907 /* MSONValueMemberParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4086365B19F7DB7A00B92907 /* MSONValueMemberParser.h */; };
 		40A1EE0B19EC0A0B00DB894A /* MSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A1EE0A19EC0A0B00DB894A /* MSON.h */; };
 		40C61A2619F16C7300EC506D /* SignatureSectionProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */; };
 		BB05B9D81804493500243E1B /* perf-snowcrash.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB05B9D71804493500243E1B /* perf-snowcrash.cc */; };
@@ -133,10 +136,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		404E15A419F9304B004EDF09 /* MSONSourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSONSourcemap.h; path = src/MSONSourcemap.h; sourceTree = "<group>"; };
 		4056BE0A19EE98C5003AC26C /* test-Signature.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-Signature.cc"; path = "test/test-Signature.cc"; sourceTree = "<group>"; };
 		4070F30119E4C30A004892C8 /* BlueprintSourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueprintSourcemap.h; path = src/BlueprintSourcemap.h; sourceTree = "<group>"; };
 		4070F30219E4C30A004892C8 /* CBlueprintSourcemap.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBlueprintSourcemap.cc; path = src/CBlueprintSourcemap.cc; sourceTree = "<group>"; };
 		4070F30319E4C30A004892C8 /* CBlueprintSourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBlueprintSourcemap.h; path = src/CBlueprintSourcemap.h; sourceTree = "<group>"; };
+		4086365919F7DB3000B92907 /* test-MSONValueMemberParser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-MSONValueMemberParser.cc"; path = "test/test-MSONValueMemberParser.cc"; sourceTree = "<group>"; };
+		4086365B19F7DB7A00B92907 /* MSONValueMemberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSONValueMemberParser.h; path = src/MSONValueMemberParser.h; sourceTree = "<group>"; };
 		40A1EE0A19EC0A0B00DB894A /* MSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSON.h; path = src/MSON.h; sourceTree = "<group>"; };
 		40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignatureSectionProcessor.h; path = src/SignatureSectionProcessor.h; sourceTree = "<group>"; };
 		BB03DC6417D3717B00C51E52 /* ParametersParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ParametersParser.h; path = src/ParametersParser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -313,6 +319,7 @@
 				BBFC8421196C0C27001A236A /* test-csnowcrash.cc */,
 				BBD73565192ED45D009FE09E /* test-HeadersParser.cc */,
 				BB45781D182326EE00D0293A /* test-Indentation.cc */,
+				4086365919F7DB3000B92907 /* test-MSONValueMemberParser.cc */,
 				BBCC856019542DB300B99E90 /* test-ParameterParser.cc */,
 				BB03DC6517D3718D00C51E52 /* test-ParametersParser.cc */,
 				BBE5705C173922B70086CE22 /* test-PayloadParser.cc */,
@@ -353,6 +360,8 @@
 				BB92D890178EF7C10098A63C /* HTTP.cc */,
 				BB92D88F178EF4160098A63C /* HTTP.h */,
 				40A1EE0A19EC0A0B00DB894A /* MSON.h */,
+				404E15A419F9304B004EDF09 /* MSONSourcemap.h */,
+				4086365B19F7DB7A00B92907 /* MSONValueMemberParser.h */,
 				BBCC855C19542DA100B99E90 /* ParameterParser.h */,
 				BB03DC6417D3717B00C51E52 /* ParametersParser.h */,
 				BBE5705F173927870086CE22 /* PayloadParser.h */,
@@ -403,6 +412,7 @@
 				BBCC855F19542DA100B99E90 /* ValuesParser.h in Headers */,
 				BBA91DC2171D402600649B05 /* BlueprintParser.h in Headers */,
 				BBCEF19218FBF7B000A0FA24 /* Version.h in Headers */,
+				404E15A519F9304B004EDF09 /* MSONSourcemap.h in Headers */,
 				BBFC841B196C0C0F001A236A /* csnowcrash.h in Headers */,
 				BBB0F42A1731CE0D00C92465 /* RegexMatch.h in Headers */,
 				BBD5F9C917353C310049BBEE /* ResourceGroupParser.h in Headers */,
@@ -415,6 +425,7 @@
 				BBE57061173927870086CE22 /* PayloadParser.h in Headers */,
 				BBFC841D196C0C0F001A236A /* CSourceAnnotation.h in Headers */,
 				BB8C3E651923D83C00EF36FA /* Section.h in Headers */,
+				4086365C19F7DB7A00B92907 /* MSONValueMemberParser.h in Headers */,
 				4070F30619E4C30A004892C8 /* CBlueprintSourcemap.h in Headers */,
 				BBE53561174132B100BCA7AD /* Serialize.h in Headers */,
 				BBCC855E19542DA100B99E90 /* ParameterParser.h in Headers */,
@@ -570,6 +581,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBFC8425196C1AD4001A236A /* test-ActionParser.cc in Sources */,
+				4086365A19F7DB3000B92907 /* test-MSONValueMemberParser.cc in Sources */,
 				BBCC856319542DB300B99E90 /* test-ValuesParser.cc in Sources */,
 				BBB1278C199970A80041E9AE /* test-SymbolIdentifier.cc in Sources */,
 				BBFC8426196C1AFD001A236A /* test-RegexMatch.cc in Sources */,
