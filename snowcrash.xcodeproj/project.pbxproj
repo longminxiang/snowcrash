@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4056BE0B19EE98C5003AC26C /* test-Signature.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4056BE0A19EE98C5003AC26C /* test-Signature.cc */; };
 		4070F30419E4C30A004892C8 /* BlueprintSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4070F30119E4C30A004892C8 /* BlueprintSourcemap.h */; };
 		4070F30519E4C30A004892C8 /* CBlueprintSourcemap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4070F30219E4C30A004892C8 /* CBlueprintSourcemap.cc */; };
 		4070F30619E4C30A004892C8 /* CBlueprintSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4070F30319E4C30A004892C8 /* CBlueprintSourcemap.h */; };
 		40A1EE0B19EC0A0B00DB894A /* MSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A1EE0A19EC0A0B00DB894A /* MSON.h */; };
+		40C61A2619F16C7300EC506D /* SignatureSectionProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */; };
 		BB05B9D81804493500243E1B /* perf-snowcrash.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB05B9D71804493500243E1B /* perf-snowcrash.cc */; };
 		BB05B9D918044C8200243E1B /* libsnowcrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFF4898170B34E6001E5FB2 /* libsnowcrash.a */; };
 		BB088F78192D7901003AA95C /* SectionParserData.h in Headers */ = {isa = PBXBuildFile; fileRef = BB088F77192D7901003AA95C /* SectionParserData.h */; };
@@ -131,10 +133,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4056BE0A19EE98C5003AC26C /* test-Signature.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-Signature.cc"; path = "test/test-Signature.cc"; sourceTree = "<group>"; };
 		4070F30119E4C30A004892C8 /* BlueprintSourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueprintSourcemap.h; path = src/BlueprintSourcemap.h; sourceTree = "<group>"; };
 		4070F30219E4C30A004892C8 /* CBlueprintSourcemap.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CBlueprintSourcemap.cc; path = src/CBlueprintSourcemap.cc; sourceTree = "<group>"; };
 		4070F30319E4C30A004892C8 /* CBlueprintSourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBlueprintSourcemap.h; path = src/CBlueprintSourcemap.h; sourceTree = "<group>"; };
 		40A1EE0A19EC0A0B00DB894A /* MSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSON.h; path = src/MSON.h; sourceTree = "<group>"; };
+		40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignatureSectionProcessor.h; path = src/SignatureSectionProcessor.h; sourceTree = "<group>"; };
 		BB03DC6417D3717B00C51E52 /* ParametersParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ParametersParser.h; path = src/ParametersParser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		BB03DC6517D3718D00C51E52 /* test-ParametersParser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-ParametersParser.cc"; path = "test/test-ParametersParser.cc"; sourceTree = "<group>"; };
 		BB05B9CE180448E300243E1B /* perf-libsnowcrash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "perf-libsnowcrash"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,6 +320,7 @@
 				BBB127871999700E0041E9AE /* test-ResourceGroupParser.cc */,
 				BBD5F9DD173578210049BBEE /* test-ResourceParser.cc */,
 				BBCC856619543A4D00B99E90 /* test-SectionParser.cc */,
+				4056BE0A19EE98C5003AC26C /* test-Signature.cc */,
 				BBFF48C9170B3C49001E5FB2 /* test-snowcrash.cc */,
 				BBCC04E518A51AA800C65A08 /* test-SymbolIdentifier.cc */,
 				BB1865C81764DB8A00756B18 /* test-SymbolTable.cc */,
@@ -369,6 +374,7 @@
 				BBE5355D174132B100BCA7AD /* SerializeYAML.h */,
 				BBCC856819545FCE00B99E90 /* Signature.cc */,
 				BB8C3E721924192600EF36FA /* Signature.h */,
+				40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */,
 				BBFF48CC170B3EDE001E5FB2 /* snowcrash.cc */,
 				BBFF48D1170B4224001E5FB2 /* snowcrash.h */,
 				BB6A9A7F17904C7300B2F283 /* SourceAnnotation.h */,
@@ -389,6 +395,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C61A2619F16C7300EC506D /* SignatureSectionProcessor.h in Headers */,
 				BBFF48D2170B4224001E5FB2 /* snowcrash.h in Headers */,
 				BBFCD83A19DAEE240073813C /* cmdline.h in Headers */,
 				BBFF48D6170C4F30001E5FB2 /* Blueprint.h in Headers */,
@@ -578,6 +585,7 @@
 				BBB1278B199970350041E9AE /* test-Indentation.cc in Sources */,
 				BBB1278E199970B20041E9AE /* test-Warnings.cc in Sources */,
 				BBB1278D199970AB0041E9AE /* test-SymbolTable.cc in Sources */,
+				4056BE0B19EE98C5003AC26C /* test-Signature.cc in Sources */,
 				BBFC8424196C0C27001A236A /* test-UriTemplateParser.cc in Sources */,
 				BBFC842A196C1B2B001A236A /* test-snowcrash.cc in Sources */,
 				BBB1278A1999702E0041E9AE /* test-csnowcrash.cc in Sources */,
