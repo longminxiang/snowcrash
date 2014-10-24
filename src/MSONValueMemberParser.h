@@ -10,6 +10,7 @@
 #define SNOWCRASH_MSONVALUEMEMBERPARSER_H
 
 #include "SectionParser.h"
+#include "MSONUtility.h"
 
 using namespace scpl;
 
